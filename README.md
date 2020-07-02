@@ -10,3 +10,4 @@ https://www.cnblogs.com/Gbeniot/p/5198592.html
 #添加用户名和邮箱:      
 git config --global user.name "myname"      
 git config --global user.email "myname@mymail.com"      
+#连接远程仓库:git remote add origin `窗库远程地址`      
