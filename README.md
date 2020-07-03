@@ -27,10 +27,11 @@ print("vscode use markdown try")
 **真好用**
 ***加斜***      
 
-'''               
+```python       
+print("helloWorld")               
 cd ~/catkin_ws      
-catkin_make
-'''     
+catkin_make     
+```    
 
 
 #### windows下 使用cmake
