@@ -40,29 +40,29 @@ catkin_make     pppp
 3. 编译、运行       
 
 
-####git使用问题
+#### git使用问题
 git status 不能`显示中文`:git terminal run：git config --global core.quotepath false
 
 git 一次性add 多个文件或提交多次修改
 git add -all
 git commit -m 'add more file'
 git push origin master
-####git 提交多个文件
+#### git 提交多个文件
 * git add file1 file2 file3
 * git config/* 提交config 目录下的所有文件
 * git home/*.hpp
 * git add -all git add .
 
-git 只提交部分修改的文件:
+#### git 只提交部分修改的文件:
 1. 把修改的文件add 到暂存区
 2. 忽略其他文件，把现修改隐藏起来 git stash -u -k
 3. 恢复之前忽略的文件 git stash pop
 
-####git 状态
+#### git 状态
 * not stage:add过的文件，即跟踪文件，再次修改没有add，就是没有暂存的意思
 * untrack:是新文件，没有被add过，是为跟踪的意思
 
-####插入图片
+#### 插入图片
 ![avatar](./git_stage.jpg)
 
 <div align=right><img width = 90% height =90% src ="./git_stage.jpg"/></div>
