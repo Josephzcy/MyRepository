@@ -41,6 +41,7 @@ catkin_make     pppp
 
 
 #### git使用问题
+`全文参考`：https://www.cnblogs.com/best/p/7474442.html#!comments
 git status 不能`显示中文`:git terminal run：git config --global core.quotepath false
 
 git 一次性add 多个文件或提交多次修改
@@ -63,8 +64,16 @@ git push origin master
 * untrack:是新文件，没有被add过，是为跟踪的意思
 
 #### 插入图片
-![avatar](./git_stage.jpg)
 
-<div align=right><img width = 90% height =90% src ="./git_stage.jpg"/></div>
+![git_stage](https://cdn.jsdelivr.net/gh/Josephzcy/PicBed/Images_for_blogs/git_stage.jpg)       
+
+
+<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/Josephzcy/PicBed/Images_for_blogs/git_stage.jpg" height=80% width=80% >       
+</div>
+<center>题注</center>
+
+
+
 
 
