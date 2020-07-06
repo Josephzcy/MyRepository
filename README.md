@@ -11,9 +11,9 @@ https://www.cnblogs.com/Gbeniot/p/5198592.html
 git config --global user.name "myname"      
 git config --global user.email "myname@mymail.com"      
 #连接远程仓库:git remote add origin `窗库远程地址`      
-'''python
+```python
 print("vscode use markdown try")
-'''     
+```    
 有序列表
 1. 123
 2.  345
@@ -30,7 +30,7 @@ print("vscode use markdown try")
 ```python       
 print("helloWorld")               
 cd ~/catkin_ws      
-catkin_make     
+catkin_make     pppp
 ```    
 
 
@@ -38,5 +38,33 @@ catkin_make
 1. 基本工程步骤和Ubuntu一致
 2. 用vs打开sln文件,右键HelloWorld `选择设为启动项`
 3. 编译、运行       
+
+
+####git使用问题
+git status 不能`显示中文`:git terminal run：git config --global core.quotepath false
+
+git 一次性add 多个文件或提交多次修改
+git add -all
+git commit -m 'add more file'
+git push origin master
+####git 提交多个文件
+* git add file1 file2 file3
+* git config/* 提交config 目录下的所有文件
+* git home/*.hpp
+* git add -all git add .
+
+git 只提交部分修改的文件:
+1. 把修改的文件add 到暂存区
+2. 忽略其他文件，把现修改隐藏起来 git stash -u -k
+3. 恢复之前忽略的文件 git stash pop
+
+####git 状态
+* not stage:add过的文件，即跟踪文件，再次修改没有add，就是没有暂存的意思
+* untrack:是新文件，没有被add过，是为跟踪的意思
+
+####插入图片
+![avatar](./git_stage.jpg)
+
+<div align=right><img width = 90% height =90% src ="./git_stage.jpg"/></div>
 
 

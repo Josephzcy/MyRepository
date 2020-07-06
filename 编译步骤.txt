@@ -1,0 +1,29 @@
+
+编译之前先运行foundation 分布式架构
+D:\Cybertron\Modules\Foundation\Build\build_debug.bat
+ 
+
+Next:
+0-5
+
+网页编译：
+1.D:\Cybertron\Modules\WebApp\Scripts
+2../build.sh build
+3.default
+4.dev
+
+网页缓存
+Cybertron\Modules\WebApp\WebServer\db
+拉代码之前拉下资源 防止不对应
+
+
+拉代码、创建分支、上传代码
+创建分支：1.在最新的log下右键创建分支并切换到该分支上
+          2.关联服务器：在该分支下右键 然后选择Pull
+          3.在远程git.lab master下搜索该分支并查看
+重置提交：master 右键 重置提交
+
+
+
+SensorSimulation
+D:\Cybertron\Modules\Bridges\BridgeLiDAR\

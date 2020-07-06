@@ -1,0 +1,14 @@
+base_score：0.5
+选取一个最佳的特征以及分裂点使得Gain最大？
+根据最大增益选择最佳分裂点
+alpha*w
+数的预测结果
+
+叶子节点不在分裂：单个节点
+
+min_child_weight
+
+
+第二棵树：
+更新base_score：
+xgboost 做特征选择
