@@ -69,7 +69,7 @@ git push origin master
 
 
 <div align="center">
-<img src="https://cdn.jsdelivr.net/gh/Josephzcy/PicBed/Images_for_blogs/git_stage.jpg" height=80% width=80% >       
+<img src="https://cdn.jsdelivr.net/gh/Josephzcy/PicBed/Images_for_blogs/git_stage.jpg" height=90% width=90% >       
 </div>
 <center>题注</center>
 
